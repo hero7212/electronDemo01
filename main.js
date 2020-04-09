@@ -17,7 +17,7 @@ app.on('ready', () => {
             enableRemoteModule: true
         }
     })
-    mainWindow.loadFile('index.html')
+    mainWindow.loadFile('demo2.html')
     mainWindow.on('closed', ()=>{
         mainWidow = null
     })
